@@ -7,11 +7,13 @@ public class menuak {
 		// TODO Auto-generated method stub
 		
 		int i =teclado.nextInt();
+		int a;
+		int b;
+		int holder=1;
 		 switch(i) {
 		 case 1:
 			 System.out.println("suma");
-			 int a;
-			 int b;
+			 
 			 a=teclado.nextInt();
 			 b=teclado.nextInt();
 			 System.out.println(a+b);
@@ -34,6 +36,12 @@ public class menuak {
 			 b=teclado.nextInt();
 			 System.out.println(a/b);
 			 break;
+		 case 5:
+			 a=teclado.nextInt();
+			 for(int factMult =1; factMult < a+1;factMult++) {
+				 holder=holder * factMult;
+			 }
+			 System.out.println(holder);
 		 }
 	}
 
