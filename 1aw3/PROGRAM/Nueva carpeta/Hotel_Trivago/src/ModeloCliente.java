@@ -24,9 +24,9 @@ public class ModeloCliente extends Conexion {
 
 				l1.add(new Cliente());
 
-				l1.get(aux).setDni(rs.getString("dni"));
+				l1.get(aux).setDNI(rs.getString("dni"));
 				l1.get(aux).setNombre(rs.getString("nombre"));
-				l1.get(aux).setApellido(rs.getString("apellido"));
+				l1.get(aux).setApellidos(rs.getString("apellido"));
 				l1.get(aux).setDireccion(rs.getString("direccion"));
 				l1.get(aux).setLocalidad(rs.getString("localidad"));
 
@@ -51,9 +51,9 @@ public class ModeloCliente extends Conexion {
 			while (rs.next()) {
 				l1.add(new Cliente());
 
-				l1.get(aux).setDni(rs.getString("dni"));
+				l1.get(aux).setDNI(rs.getString("dni"));
 				l1.get(aux).setNombre(rs.getString("nombre"));
-				l1.get(aux).setApellido(rs.getString("apellido"));
+				l1.get(aux).setApellidos(rs.getString("apellido"));
 				l1.get(aux).setDireccion(rs.getString("direccion"));
 				l1.get(aux).setLocalidad(rs.getString("localidad"));
 
@@ -77,9 +77,9 @@ public class ModeloCliente extends Conexion {
 			ResultSet rs = st.executeQuery("select * from Clientes where upper(dni) = '" + dni.toUpperCase() + "'");
 
 			while (rs.next()) {
-				s1.setDni(rs.getString("dni"));
+				s1.setDNI(rs.getString("dni"));
 				s1.setNombre(rs.getString("nombre"));
-				s1.setApellido(rs.getString("apellido"));
+				s1.setApellidos(rs.getString("apellido"));
 				s1.setDireccion(rs.getString("direccion"));
 				s1.setLocalidad(rs.getString("localidad"));
 			}

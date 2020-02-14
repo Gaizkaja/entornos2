@@ -1,5 +1,5 @@
 
-public class Clientes {
+public class Cliente {
 	private String DNI;
 	private String Nombre;
 	private String Apellidos;

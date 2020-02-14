@@ -65,13 +65,9 @@ public class Main {
 			
 		
 		}while (aukera != SALIR){
-			System.out.println("Adios");
 	}
 			
 
 }
 }	
 		
-		
-
-
