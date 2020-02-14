@@ -25,10 +25,12 @@ public class Main {
 		
 		switch (aukera) {
 		case 1:
+			
 			añadirhotel();
 			
 			break;
 		case 2:
+			
 			eliminarhotel();
 			
 			
@@ -108,7 +110,7 @@ public class Main {
 	private static void listarclientes() {
 		// TODO Auto-generated method stub
 		cliente.selectAll();
-		System.out.println("Lista de los usuarios:");
+		System.out.println("Lista de los clientes:");
 		System.out.println("**********************************************************************************");
 		for (int i = 0; i < cliente.selectAll().size(); i++) {
 

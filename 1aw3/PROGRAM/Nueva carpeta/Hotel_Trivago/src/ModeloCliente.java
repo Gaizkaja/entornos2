@@ -53,7 +53,7 @@ public class ModeloCliente extends Conexion {
 
 				l1.get(aux).setDNI(rs.getString("dni"));
 				l1.get(aux).setNombre(rs.getString("nombre"));
-				l1.get(aux).setApellidos(rs.getString("apellido"));
+				l1.get(aux).setApellidos(rs.getString("apellidos"));
 				l1.get(aux).setDireccion(rs.getString("direccion"));
 				l1.get(aux).setLocalidad(rs.getString("localidad"));
 
@@ -79,7 +79,7 @@ public class ModeloCliente extends Conexion {
 			while (rs.next()) {
 				s1.setDNI(rs.getString("dni"));
 				s1.setNombre(rs.getString("nombre"));
-				s1.setApellidos(rs.getString("apellido"));
+				s1.setApellidos(rs.getString("apellidos"));
 				s1.setDireccion(rs.getString("direccion"));
 				s1.setLocalidad(rs.getString("localidad"));
 			}
