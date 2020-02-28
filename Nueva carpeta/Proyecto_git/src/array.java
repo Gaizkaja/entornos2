@@ -5,6 +5,7 @@ public class array {
 		// TODO Auto-generated method stub
 		System.out.println("hola");
 		System.out.println("hola");
+		System.out.println("hola");
 
 	}
 
